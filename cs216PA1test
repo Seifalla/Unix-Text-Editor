@@ -1,0 +1,27 @@
+#!/bin/bash
+#This shell script will display 
+#the avaible option and their meanings.
+#Then it will accept and redirects 
+#the user input to an input file
+
+#Display the avaible option and their meanings.
+echo "Enjoy editing with myEditor..."
+echo "Please type a few lines of text to start with"
+echo "click ctrl-d to stop typing and save to a file"
+
+echo "---------------------------------------"
+echo "|I n --> insert the text at line n. |"
+echo "|D n --> delete the text at line n. |"
+echo "|L --> list all lines. |"
+echo "|Q --> save into a file and quit. |"
+echo "---------------------------------------"
+
+#redirects user input
+cat > testfile
+
+#run the program with the command 
+#line argument
+./myEditor testfile
+
+echo "Thank you for using myEditor."
+
