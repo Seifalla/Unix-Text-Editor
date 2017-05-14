@@ -10,5 +10,5 @@
 
 •	Run the shell script “cs216PA1test”
 
-This text editor lets the user type in lines of text and stores them in a linked list structure. The user can also insert and delete lines.
+This text editor accepts text input from the user and stores it in a linked list structure. The user can also insert and delete lines.
 
